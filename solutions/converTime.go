@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-func convertTime(s string) string {
+func ConvertTime(s string) string {
 	entryTime := strings.Split(s, ":")
-	AMPM := s[:2]
+	AMPM := entryTime[2][2:]
 
-	fmt.Println(entryTime)
+	fmt.Println(entryTime[0])
 	fmt.Println(AMPM)
 
 	return ""

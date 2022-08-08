@@ -1,7 +1,6 @@
 package solutions
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -9,9 +8,6 @@ import (
 func ConvertTime(s string) string {
 	entryTime := strings.Split(s, ":")
 	AMPM := entryTime[2][2:]
-
-	fmt.Println(entryTime[0])
-	fmt.Println(AMPM)
 
 	hours, hoursErr := strconv.Atoi(entryTime[0])
 	if hoursErr != nil {

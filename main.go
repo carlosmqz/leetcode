@@ -8,7 +8,7 @@ import (
 
 func main() {
 	//candles := solutions.GetNumberOfCandles()
-	timeConv := solutions.ConvertTime("10:00:01PM")
+	timeConv := solutions.ConvertTime("01:00:01AM")
 	//fmt.Println("Candles: ", candles)
 	fmt.Println(timeConv)
 }

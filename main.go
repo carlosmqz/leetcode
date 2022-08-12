@@ -8,7 +8,8 @@ import (
 
 func main() {
 	//candles := solutions.GetNumberOfCandles()
-	timeConv := solutions.ConvertTime("12:59:59AM")
+	//timeConv := solutions.ConvertTime("10:59:59PM")
 	//fmt.Println("Candles: ", candles)
-	fmt.Println(timeConv)
+	//fmt.Println(timeConv)
+	fmt.Println(solutions.RepeatedString("afcfffaged", 962645758455))
 }

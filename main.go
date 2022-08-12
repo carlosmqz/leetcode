@@ -15,6 +15,6 @@ func main() {
 	//fmt.Println("Candles: ", candles)
 	//fmt.Println(timeConv)
 	//fmt.Println(solutions.CircularArrayRotation([]int32{3, 4, 5}, 2, []int32{1, 2}))
-	fmt.Println(solutions.RepeatedString("afcfffaged", 962645758455))
-
+	//fmt.Println(solutions.RepeatedString("afcfffaged", 962645758455))
+	fmt.Println(solutions.RepeatedString("aba", 10))
 }

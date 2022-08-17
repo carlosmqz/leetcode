@@ -2,8 +2,6 @@ package solutions
 
 func JumpingOnClouds(c []int32) int32 {
 	// Write your code here
-	//var lastone int32
-	//0, 0, 0, 1, 0, 0
 	var jumpCounter, l, i int32
 	l = int32(len(c))
 	for i = 0; i < l-1; {
